@@ -1,0 +1,50 @@
+{
+  "4524ac14-c778-4f78-8139-2d2d643c341d": {
+    "model_weights_path": "/content/study/4524ac14-c778-4f78-8139-2d2d643c341d_weights_model.pth",
+    "complete_model_path": "/content/study/4524ac14-c778-4f78-8139-2d2d643c341d_complete_model.pth",
+    "model_name": "ResNet50",
+    "num_epocs": 4
+  },
+  "af557edf-40c6-4b7c-8d11-9a52bd68ba88": {
+    "model_weights_path": "/content/study/af557edf-40c6-4b7c-8d11-9a52bd68ba88_weights_model.pth",
+    "complete_model_path": "/content/study/af557edf-40c6-4b7c-8d11-9a52bd68ba88_complete_model.pth",
+    "model_name": "ResNet152",
+    "num_epocs": 4
+  },
+  "752504c8-e565-49a8-9a52-1cfd584caf8e": {
+    "model_weights_path": "/content/study/752504c8-e565-49a8-9a52-1cfd584caf8e_weights_model.pth",
+    "complete_model_path": "/content/study/752504c8-e565-49a8-9a52-1cfd584caf8e_complete_model.pth",
+    "model_name": "ResNet50",
+    "num_epocs": 4
+  },
+  "48979939-21c1-4b13-9bc2-29b829c5b115": {
+    "model_weights_path": "/content/study/48979939-21c1-4b13-9bc2-29b829c5b115_weights_model.pth",
+    "complete_model_path": "/content/study/48979939-21c1-4b13-9bc2-29b829c5b115_complete_model.pth",
+    "model_name": "ResNet152",
+    "num_epocs": 4
+  },
+  "64d31758-4f1b-45a4-b053-c63db6d9c15d": {
+    "model_weights_path": "/content/study/64d31758-4f1b-45a4-b053-c63db6d9c15d_weights_model.pth",
+    "complete_model_path": "/content/study/64d31758-4f1b-45a4-b053-c63db6d9c15d_complete_model.pth",
+    "model_name": "ResNet50",
+    "num_epocs": 4
+  },
+  "855ba41e-803e-461a-8ca3-db254a126561": {
+    "model_weights_path": "/content/study/855ba41e-803e-461a-8ca3-db254a126561_weights_model.pth",
+    "complete_model_path": "/content/study/855ba41e-803e-461a-8ca3-db254a126561_complete_model.pth",
+    "model_name": "ResNet152",
+    "num_epocs": 4
+  },
+  "5771e2ab-cd5d-4c6d-9151-c485299233e4": {
+    "model_weights_path": "/content/study/5771e2ab-cd5d-4c6d-9151-c485299233e4_weights_model.pth",
+    "complete_model_path": "/content/study/5771e2ab-cd5d-4c6d-9151-c485299233e4_complete_model.pth",
+    "model_name": "ResNet50",
+    "num_epocs": 4
+  },
+  "162d9122-075c-42b1-8a8c-1f8b2329d733": {
+    "model_weights_path": "/content/study/162d9122-075c-42b1-8a8c-1f8b2329d733_weights_model.pth",
+    "complete_model_path": "/content/study/162d9122-075c-42b1-8a8c-1f8b2329d733_complete_model.pth",
+    "model_name": "ResNet152",
+    "num_epocs": 4
+  }
+}

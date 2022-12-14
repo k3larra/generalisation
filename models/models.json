@@ -5,38 +5,37 @@
     "model_name": "ResNet50",
     "num_epocs": 4,
     "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 13 12:00:00 2022",
     "training": {
       "train_0": {
-        "train_loss": 0.3686701553427567,
-        "epoch_acc": 0.9336
+        "train_loss": 0.369,
+        "epoch_acc": 0.933
       },
       "test_0": {
-        "test_loss": 0.0038304630466109942,
+        "test_loss": 0.004,
         "epoch_acc": 1
       },
       "train_1": {
-        "train_loss": 0.005205006221382912,
-        "epoch_acc": 0.9996
+        "train_loss": 0.005,
+        "epoch_acc": 1
       },
       "test_1": {
-        "test_loss": 0.00142371916222746,
+        "test_loss": 0.001,
         "epoch_acc": 1
       },
       "train_2": {
-        "train_loss": 0.0021716676851663962,
-        "epoch_acc": 0.9999
+        "train_loss": 0.002,
+        "epoch_acc": 1
       },
       "test_2": {
-        "test_loss": 0.0009048188369011922,
+        "test_loss": 0.001,
         "epoch_acc": 1
       },
       "train_3": {
-        "train_loss": 0.0015409388416982167,
-        "epoch_acc": 0.9999
+        "train_loss": 0.002,
+        "epoch_acc": 1
       },
       "test_3": {
-        "test_loss": 0.000464046152068579,
+        "test_loss": 0,
         "epoch_acc": 1
       }
     }
@@ -79,6 +78,48 @@
       },
       "test_3": {
         "test_loss": 0.0,
+        "epoch_acc": 1.0
+      }
+    }
+  },
+  "1d4d9213-f7df-4c2d-b670-731b1ed81110": {
+    "model_weights_path": "/content/study/1d4d9213-f7df-4c2d-b670-731b1ed81110_weights_model.pth",
+    "complete_model_path": "/content/study/1d4d9213-f7df-4c2d-b670-731b1ed81110_complete_model.pth",
+    "model_name": "ResNet50",
+    "num_epocs": 4,
+    "transformation": "transforms.Resize(size=(299, 299))",
+    "time": "Wed Dec 14 14:57:07 2022",
+    "training": {
+      "train_0": {
+        "train_loss": 0.394,
+        "epoch_acc": 0.931
+      },
+      "test_0": {
+        "test_loss": 0.003,
+        "epoch_acc": 1.0
+      },
+      "train_1": {
+        "train_loss": 0.004,
+        "epoch_acc": 1.0
+      },
+      "test_1": {
+        "test_loss": 0.001,
+        "epoch_acc": 1.0
+      },
+      "train_2": {
+        "train_loss": 0.002,
+        "epoch_acc": 1.0
+      },
+      "test_2": {
+        "test_loss": 0.001,
+        "epoch_acc": 1.0
+      },
+      "train_3": {
+        "train_loss": 0.002,
+        "epoch_acc": 1.0
+      },
+      "test_3": {
+        "test_loss": 0.001,
         "epoch_acc": 1.0
       }
     }

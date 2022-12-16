@@ -1,23 +1,108 @@
 'use strict';
 //const math = require('mathjs');
-
-let study_nbr=0;
+let model_id="";
+let classes;
+//
 //const version = "version07";
 //const models = ["ResNet101","ResNet152","GoogLeNet","Inception_V3","efficientnet_v2_s"]; //remove
 //const lowest_mean_class_probability = 16; //Remove
-const number_of_probabilities_to_show = 10;  //Remove
-let classes =[];
-let probs =[]
-
-//Move this to another file......
+//const number_of_probabilities_to_show = 10;  //Remove
+//let classes =[];
+//let probs =[]
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
-// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
- // "some_value"
 
+if (document.readyState != 'loading') {
+  onDocumentReady();
+} else {
+  document.addEventListener('DOMContentLoaded', onDocumentReady);
+}
+// Page is loaded! Now event can be wired-up
+function onDocumentReady() {
+  console.log('Document ready.');
+  populate();
+}
+async function populate() {
+  if (params.id != null){
+    model_id = params.id;
+  }
+  let requestURL = 'models/models.json';
+  let request = new Request(requestURL);
+  let response = await fetch(request);
+  const models = await response.json();
+  requestURL = 'classes.txt';
+  request = new Request(requestURL);
+  response = await fetch(request);
+  classes = await response.text();
+  classes = classes.split('\r\n');
+  set_globals(models[model_id]);
+  //move
+  
 
+  //set_header_images(structure);
+  //set_predictions();
+  //compare_models();
+  //populate_structure(structure);
+  //add_models_to_section( );
+}
+//Helpers
+function idx_to_label(index){
+  return classes[index];
+}
+function label_to_idx(label){
+  return classes.findIndex(x => x === label);
+}
+
+function set_globals(model){
+  set_info(model);
+  /* Object.entries(models).forEach(([key, value]) => {
+      models_v1.push(new Model_v1(key,value))
+
+  }); */
+  /* models_v1.forEach((model, i) => {
+    for (let j = 0; j < number_of_probabilities_to_show; j++) {
+      var t = probs_v1.find(element => element.classnumber === model.values[j].labelid);
+      if (t === undefined) {
+          const prob = new Prob_v1(model.values[j].labelid, model.values[j].label);
+          prob.probs.push(model.values[j].probability);
+          prob.maxProbability=model.values[j].probability;
+          const prob_ref = probs_v1.push(prob);
+      }else{
+        if (t.maxProbability<model.values[j].probability){
+          t.maxProbability=model.values[j].probability;
+        }
+        t.probs.push(model.values[j].probability)
+      }
+    }
+    probs_v1.sort((c1, c2) => (c1.maxProbability < c2.maxProbability) ? 1 : (c1.maxProbability > c2.maxProbability) ? -1 : 0);
+  });
+   mean_and_dispersion = new Mean_and_Dispersion(study_nbr,study['diff_mean_maps']); */
+}
+
+function set_info(model){
+  var p = document.getElementById('model_info');
+  p.classList.addclass="text-left"
+  let weights = "None"
+  //console.log(model)
+  if ((model.weights).split(".").length > 1){
+    weights = (model.weights).split(".")[1]
+  }
+  const pretrained = (weights==="None" ? 'The model is initialised with random weights.' : 
+  'The model is pretrained on ImageNet using the weights '+ weights+'.');
+  const transformation = (model.transformation === "transforms.Resize(size=(299, 299))")? 
+  "We used transformation in <a href='shapes_train.ipynb'>shapes_train.ipynb</a>":
+  "Used transformation in <a href='shapes_train.ipynb'>shapes_train.ipynb</a> and the ImageNet's recommended transformations"
+  
+  p.innerHTML = `The ImageNet model: <a href="https://pytorch.org/vision/stable/models.html#classification"> ${model.model_name}</a> trained  on the 
+  a basic shapes <a href="https://www.kaggle.com/datasets/smeschke/four-shapes">dataset</a> 
+  (circle, square, star, triangle). 16 000 images are used for training in a 90/10 split. 
+  ${pretrained}  
+  ${transformation} and trained over ${model.num_epocs} epocs. Test accuracy: ${model.training["test_" + (model.num_epocs - 1)].epoch_acc}
+  and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}. Training performed ${model.time}.`;
+}
+/////////////////////OLD BELOW////////////////////////
 const Prob = function(probability,classnumber,label){
   this.probability = probability;
   this.classnumber = classnumber;
@@ -227,6 +312,7 @@ class Model_v1{
     return  std_value;
     }
 }
+
 function idx_to_label(index){
   return classes[index];
 }
@@ -262,39 +348,8 @@ function remove_pos_from_list(list){
     }
     return result;
 }
-///until here
-///Lets go
-if (document.readyState != 'loading') {
-  onDocumentReady();
-} else {
-  document.addEventListener('DOMContentLoaded', onDocumentReady);
-}
-// Page is loaded! Now event can be wired-up
-function onDocumentReady() {
-  console.log('Document ready.');
-  if (params.study_nbr != null){
-    study_nbr = params.study_nbr;
-  }
-  populate();
-}
-async function populate() {
-  let requestURL = 'models/models.json';
-  let request = new Request(requestURL);
-  let response = await fetch(request);
-  const models = await response.json();
-  set_globals(models);
-  requestURL = 'classes.txt';
-  request = new Request(requestURL);
-  response = await fetch(request);
-  const classes_csv = await response.text();
-  classes = classes_csv.split('\r\n');
-  //console.log(classes)
-  //set_header_images(structure);
-  //set_predictions();
-  //compare_models();
-  //populate_structure(structure);
-  add_models_to_section();
-}
+
+
 function set_header_images(structure){
   var e = document.getElementById('org_image');
   var img = document.createElement("img");
@@ -318,31 +373,6 @@ function set_header_images(structure){
   fig.appendChild(img)
   fig.appendChild(cap)
   e.appendChild(fig)
-}
-function set_globals(models){
-
-  Object.entries(models).forEach(([key, value]) => {
-      models_v1.push(new Model_v1(key,value))
-
-  });
-  /* models_v1.forEach((model, i) => {
-    for (let j = 0; j < number_of_probabilities_to_show; j++) {
-      var t = probs_v1.find(element => element.classnumber === model.values[j].labelid);
-      if (t === undefined) {
-          const prob = new Prob_v1(model.values[j].labelid, model.values[j].label);
-          prob.probs.push(model.values[j].probability);
-          prob.maxProbability=model.values[j].probability;
-          const prob_ref = probs_v1.push(prob);
-      }else{
-        if (t.maxProbability<model.values[j].probability){
-          t.maxProbability=model.values[j].probability;
-        }
-        t.probs.push(model.values[j].probability)
-      }
-    }
-    probs_v1.sort((c1, c2) => (c1.maxProbability < c2.maxProbability) ? 1 : (c1.maxProbability > c2.maxProbability) ? -1 : 0);
-  });
-   mean_and_dispersion = new Mean_and_Dispersion(study_nbr,study['diff_mean_maps']); */
 }
 function add_models_to_section(){
   const e = document.getElementById("models");
@@ -382,9 +412,9 @@ function add_models_to_section(){
       e.appendChild(row_maps);
     }
     images[column].src = "images/neural_network.png";
-    links[column].href = "model01.html?id="+model.name;
+    links[column].href = "model.html?id="+model.name;
     let weights = "None"
-    if ((model.values.weights).split(".").length > 1){
+    if ((model.values.weights).split(".").length > 0){
       weights = (model.values.weights).split(".")[1]
     }
     caps[column].innerHTML = `<i>Model: </i>${model.values.model_name} 
@@ -394,7 +424,7 @@ function add_models_to_section(){
     <br/> <i>Accuracy:</i> ${model.values.training["test_" + (model.values.num_epocs - 1)].epoch_acc}
     <br/> <i>Loss::</i> ${model.values.training["test_" + (model.values.num_epocs - 1)].test_loss}
     <br/> <i>Datetime for training:</i> ${model.values.time}`;
-    /* console.log("Row:",row," Column: ",column)
+    console.log("Row:",row," Column: ",column)
     console.log("______________")
     console.log("Model number"+i)
     console.log(model)
@@ -404,7 +434,7 @@ function add_models_to_section(){
     console.log("number epocs: "+ model.values.num_epocs);
     console.log("Weights used: "+ model.values.weights);
     console.log("Accuracy"+model.values.training["test_"+(model.values.num_epocs-1)].epoch_acc);
-    console.log("Loss: "+model.values.training["test_"+(model.values.num_epocs-1)].test_loss); */
+    console.log("Loss: "+model.values.training["test_"+(model.values.num_epocs-1)].test_loss);
 
   });
 }

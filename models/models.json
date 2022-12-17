@@ -6,6 +6,7 @@
     "weights": "ResNet50_Weights.IMAGENET1K_V2",
     "num_epocs": 4,
     "transformation": "transforms.Resize(size=(299, 299))",
+    "time": "Wed Dec 14 13:45:00 2022",
     "training": {
       "train_0": {
         "train_loss": 0.369,

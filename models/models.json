@@ -1,260 +1,1703 @@
 {
-  "cde725ee-0d13-43c9-ba5a-04cb075082de": {
-    "model_weights_path": "cde725ee-0d13-43c9-ba5a-04cb075082de_weights_model.pth",
-    "complete_model_path": "cde725ee-0d13-43c9-ba5a-04cb075082de_complete_model.pth",
-    "model_name": "ResNet50",
-    "weights": "ResNet50_Weights.IMAGENET1K_V2",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 14 13:45:00 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 0.369,
-        "epoch_acc": 0.933
-      },
-      "test_0": {
-        "test_loss": 0.004,
-        "epoch_acc": 1
-      },
-      "train_1": {
-        "train_loss": 0.005,
-        "epoch_acc": 1
-      },
-      "test_1": {
-        "test_loss": 0.001,
-        "epoch_acc": 1
-      },
-      "train_2": {
-        "train_loss": 0.002,
-        "epoch_acc": 1
-      },
-      "test_2": {
-        "test_loss": 0.001,
-        "epoch_acc": 1
-      },
-      "train_3": {
-        "train_loss": 0.002,
-        "epoch_acc": 1
-      },
-      "test_3": {
-        "test_loss": 0,
-        "epoch_acc": 1
-      }
+    "cde725ee-0d13-43c9-ba5a-04cb075082de": {
+        "complete_model_path": "cde725ee-0d13-43c9-ba5a-04cb075082de_complete_model.pth",
+        "model_name": "ResNet50",
+        "weights": "ResNet50_Weights.IMAGENET1K_V2",
+        "num_epocs": 4,
+        "transformation": "transforms.Resize(size=(299, 299))",
+        "time": "Wed Dec 14 13:45:00 2022",
+        "training": {
+            "train_0": {
+                "train_loss": 0.369,
+                "epoch_acc": 0.933
+            },
+            "test_0": {
+                "test_loss": 0.004,
+                "epoch_acc": 1
+            },
+            "train_1": {
+                "train_loss": 0.005,
+                "epoch_acc": 1
+            },
+            "test_1": {
+                "test_loss": 0.001,
+                "epoch_acc": 1
+            },
+            "train_2": {
+                "train_loss": 0.002,
+                "epoch_acc": 1
+            },
+            "test_2": {
+                "test_loss": 0.001,
+                "epoch_acc": 1
+            },
+            "train_3": {
+                "train_loss": 0.002,
+                "epoch_acc": 1
+            },
+            "test_3": {
+                "test_loss": 0,
+                "epoch_acc": 1
+            }
+        },
+        "studies": {
+            "study1": {
+                "title": "cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1",
+                "unixtime": 1671546664.874516,
+                "datetime": "Tue Dec 20 14:31:04 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 0.999,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 0.951,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.04,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.003,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.003,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 0.999,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 0.666,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.313,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.01,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.005,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 0.999,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study1/7_Transfomed.PNG"
+                    }
+                }
+            },
+            "study2": {
+                "title": "cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2",
+                "unixtime": 1671546702.4988644,
+                "datetime": "Tue Dec 20 14:31:42 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 0.401,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.223,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "2": {
+                        "probability": 0.186,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.18,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 0.837,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.109,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.027,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.023,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 0.994,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.004,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.001,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.001,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 0.902,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.085,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.01,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.002,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 0.958,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.02,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.015,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.002,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 0.607,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.366,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "2": {
+                        "probability": 0.018,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.008,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 0.998,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.001,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 0.831,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.151,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.008,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.004,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study2/7_Transfomed.PNG"
+                    }
+                }
+            },
+            "study3": {
+                "title": "cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3",
+                "unixtime": 1671546730.6744268,
+                "datetime": "Tue Dec 20 14:32:10 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 0.475,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.472,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.02,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.013,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 0.874,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.077,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.019,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.007,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 0.911,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.036,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.035,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.011,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 0.827,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.156,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.004,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.004,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 0.848,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.1,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.03,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.008,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 0.756,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.186,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.023,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.017,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 0.87,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.081,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.018,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.01,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/cde725ee-0d13-43c9-ba5a-04cb075082de/studies/study3/7_Transfomed.PNG"
+                    }
+                }
+            }
+        }
+    },
+    "50946d76-8033-45ec-ab49-8e8112ec980e": {
+        "model_weights_path": "50946d76-8033-45ec-ab49-8e8112ec980e_weights_model.pth",
+        "complete_model_path": "50946d76-8033-45ec-ab49-8e8112ec980e_complete_model.pth",
+        "model_name": "ConvNeXt_Tiny",
+        "weights": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+        "num_epocs": 4,
+        "transformation": "transforms.Resize(size=(299, 299))",
+        "time": "Wed Dec 14 13:45:00 2022",
+        "training": {
+            "train_0": {
+                "train_loss": 1.495,
+                "epoch_acc": 0.246
+            },
+            "test_0": {
+                "test_loss": 1.418,
+                "epoch_acc": 0.254
+            },
+            "train_1": {
+                "train_loss": 1.339,
+                "epoch_acc": 0.322
+            },
+            "test_1": {
+                "test_loss": 1.189,
+                "epoch_acc": 0.424
+            },
+            "train_2": {
+                "train_loss": 0.252,
+                "epoch_acc": 0.897
+            },
+            "test_2": {
+                "test_loss": 0.001,
+                "epoch_acc": 1.0
+            },
+            "train_3": {
+                "train_loss": 0.003,
+                "epoch_acc": 1.0
+            },
+            "test_3": {
+                "test_loss": 0.0,
+                "epoch_acc": 1.0
+            }
+        }
+    },
+    "24376c01-e655-4ae4-8e2c-2ad0fb90d9f2": {
+        "complete_model_path": "24376c01-e655-4ae4-8e2c-2ad0fb90d9f2_complete_model.pth",
+        "model_name": "ResNet50",
+        "weights": "None",
+        "num_epocs": 4,
+        "transformation": "transforms.Resize(size=(299, 299))",
+        "time": "Wed Dec 14 16:18:55 2022",
+        "training": {
+            "train_0": {
+                "train_loss": 0.701,
+                "epoch_acc": 0.713
+            },
+            "test_0": {
+                "test_loss": 0.195,
+                "epoch_acc": 0.967
+            },
+            "train_1": {
+                "train_loss": 0.168,
+                "epoch_acc": 0.949
+            },
+            "test_1": {
+                "test_loss": 0.048,
+                "epoch_acc": 0.993
+            },
+            "train_2": {
+                "train_loss": 0.107,
+                "epoch_acc": 0.966
+            },
+            "test_2": {
+                "test_loss": 0.224,
+                "epoch_acc": 0.898
+            },
+            "train_3": {
+                "train_loss": 0.06,
+                "epoch_acc": 0.98
+            },
+            "test_3": {
+                "test_loss": 0.019,
+                "epoch_acc": 0.997
+            }
+        }
+    },
+    "4a40e39c-3c0a-4427-bb41-f0582e9c1142": {
+        "complete_model_path": "4a40e39c-3c0a-4427-bb41-f0582e9c1142_complete_model.pth",
+        "model_name": "ResNet50",
+        "weights": "None",
+        "num_epocs": 4,
+        "transformation": "transforms.Resize(size=(299, 299))",
+        "time": "Sat Dec 17 15:53:52 2022",
+        "training": {
+            "train_0": {
+                "train_loss": 0.685,
+                "epoch_acc": 0.687
+            },
+            "test_0": {
+                "test_loss": 1.119,
+                "epoch_acc": 0.472
+            },
+            "train_1": {
+                "train_loss": 0.151,
+                "epoch_acc": 0.955
+            },
+            "test_1": {
+                "test_loss": 0.163,
+                "epoch_acc": 0.942
+            },
+            "train_2": {
+                "train_loss": 0.077,
+                "epoch_acc": 0.979
+            },
+            "test_2": {
+                "test_loss": 0.089,
+                "epoch_acc": 0.973
+            },
+            "train_3": {
+                "train_loss": 0.067,
+                "epoch_acc": 0.979
+            },
+            "test_3": {
+                "test_loss": 0.024,
+                "epoch_acc": 0.998
+            }
+        },
+        "studies": {
+            "study1": {
+                "title": "4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1",
+                "unixtime": 1671546759.73076,
+                "datetime": "Tue Dec 20 14:32:39 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 0.996,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.004,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 0.996,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.003,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.001,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 0.997,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.003,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 0.996,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.004,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 0.986,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.01,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.005,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 0.994,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.006,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study1/7_Transfomed.PNG"
+                    }
+                }
+            },
+            "study2": {
+                "title": "4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2",
+                "unixtime": 1671546787.6901956,
+                "datetime": "Tue Dec 20 14:33:07 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 0.916,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.084,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study2/7_Transfomed.PNG"
+                    }
+                }
+            },
+            "study3": {
+                "title": "4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3",
+                "unixtime": 1671546815.7374222,
+                "datetime": "Tue Dec 20 14:33:35 2022",
+                "description": "To be added",
+                "testset": "https://github.com/k3larra/generalisation/tree/pc/testset",
+                "0": {
+                    "0": {
+                        "probability": 0.995,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.005,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/0_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/0_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/0_Transfomed.PNG"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "probability": 0.841,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.151,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "2": {
+                        "probability": 0.008,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/1_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/1_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/1_Transfomed.PNG"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "probability": 0.998,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.001,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/2_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/2_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/2_Transfomed.PNG"
+                    }
+                },
+                "3": {
+                    "0": {
+                        "probability": 0.997,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.002,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/3_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/3_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/3_Transfomed.PNG"
+                    }
+                },
+                "4": {
+                    "0": {
+                        "probability": 0.901,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "1": {
+                        "probability": 0.099,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/4_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/4_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/4_Transfomed.PNG"
+                    }
+                },
+                "5": {
+                    "0": {
+                        "probability": 0.995,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "1": {
+                        "probability": 0.004,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.001,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/5_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/5_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/5_Transfomed.PNG"
+                    }
+                },
+                "6": {
+                    "0": {
+                        "probability": 1.0,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "1": {
+                        "probability": 0.0,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/6_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/6_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/6_Transfomed.PNG"
+                    }
+                },
+                "7": {
+                    "0": {
+                        "probability": 0.998,
+                        "label": "triangle",
+                        "labelid": 3
+                    },
+                    "1": {
+                        "probability": 0.002,
+                        "label": "star",
+                        "labelid": 2
+                    },
+                    "2": {
+                        "probability": 0.0,
+                        "label": "square",
+                        "labelid": 1
+                    },
+                    "3": {
+                        "probability": 0.0,
+                        "label": "circle",
+                        "labelid": 0
+                    },
+                    "gradcam": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/7_GradCam.PNG"
+                    },
+                    "occlusion": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/7_Occlusion.PNG"
+                    },
+                    "transformed": {
+                        "image_path": "models/4a40e39c-3c0a-4427-bb41-f0582e9c1142/studies/study3/7_Transfomed.PNG"
+                    }
+                }
+            }
+        }
     }
-  },
-  "50946d76-8033-45ec-ab49-8e8112ec980e": {
-    "model_weights_path": "50946d76-8033-45ec-ab49-8e8112ec980e_weights_model.pth",
-    "complete_model_path": "50946d76-8033-45ec-ab49-8e8112ec980e_complete_model.pth",
-    "model_name": "ConvNeXt_Tiny",
-    "weights": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 14 13:45:00 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 1.495,
-        "epoch_acc": 0.246
-      },
-      "test_0": {
-        "test_loss": 1.418,
-        "epoch_acc": 0.254
-      },
-      "train_1": {
-        "train_loss": 1.339,
-        "epoch_acc": 0.322
-      },
-      "test_1": {
-        "test_loss": 1.189,
-        "epoch_acc": 0.424
-      },
-      "train_2": {
-        "train_loss": 0.252,
-        "epoch_acc": 0.897
-      },
-      "test_2": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      },
-      "train_3": {
-        "train_loss": 0.003,
-        "epoch_acc": 1.0
-      },
-      "test_3": {
-        "test_loss": 0.0,
-        "epoch_acc": 1.0
-      }
-    }
-  },
-  "1d4d9213-f7df-4c2d-b670-731b1ed81110": {
-    "model_weights_path": "1d4d9213-f7df-4c2d-b670-731b1ed81110_weights_model.pth",
-    "complete_model_path": "1d4d9213-f7df-4c2d-b670-731b1ed81110_complete_model.pth",
-    "model_name": "ResNet50",
-    "weights": "ResNet50_Weights.IMAGENET1K_V2",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 14 14:57:07 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 0.394,
-        "epoch_acc": 0.931
-      },
-      "test_0": {
-        "test_loss": 0.003,
-        "epoch_acc": 1.0
-      },
-      "train_1": {
-        "train_loss": 0.004,
-        "epoch_acc": 1.0
-      },
-      "test_1": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      },
-      "train_2": {
-        "train_loss": 0.002,
-        "epoch_acc": 1.0
-      },
-      "test_2": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      },
-      "train_3": {
-        "train_loss": 0.002,
-        "epoch_acc": 1.0
-      },
-      "test_3": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      }
-    }
-  },
-  "1f07b424-c8ae-4886-803b-1d4b7fca79fa": {
-    "model_weights_path": "1f07b424-c8ae-4886-803b-1d4b7fca79fa_weights_model.pth",
-    "complete_model_path": "1f07b424-c8ae-4886-803b-1d4b7fca79fa_complete_model.pth",
-    "model_name": "GoogLeNet",
-    "weights": "GoogLeNet_Weights.IMAGENET1K_V1",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 14 15:35:51 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 0.263,
-        "epoch_acc": 0.964
-      },
-      "test_0": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      },
-      "train_1": {
-        "train_loss": 0.004,
-        "epoch_acc": 1.0
-      },
-      "test_1": {
-        "test_loss": 0.001,
-        "epoch_acc": 1.0
-      },
-      "train_2": {
-        "train_loss": 0.003,
-        "epoch_acc": 1.0
-      },
-      "test_2": {
-        "test_loss": 0.001,
-        "epoch_acc": 0.999
-      },
-      "train_3": {
-        "train_loss": 0.002,
-        "epoch_acc": 1.0
-      },
-      "test_3": {
-        "test_loss": 0.0,
-        "epoch_acc": 1.0
-      }
-    }
-  },
-  "24376c01-e655-4ae4-8e2c-2ad0fb90d9f2": {
-    "model_weights_path": "24376c01-e655-4ae4-8e2c-2ad0fb90d9f2_weights_model.pth",
-    "complete_model_path": "24376c01-e655-4ae4-8e2c-2ad0fb90d9f2_complete_model.pth",
-    "model_name": "ResNet50",
-    "weights": "None",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Wed Dec 14 16:18:55 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 0.701,
-        "epoch_acc": 0.713
-      },
-      "test_0": {
-        "test_loss": 0.195,
-        "epoch_acc": 0.967
-      },
-      "train_1": {
-        "train_loss": 0.168,
-        "epoch_acc": 0.949
-      },
-      "test_1": {
-        "test_loss": 0.048,
-        "epoch_acc": 0.993
-      },
-      "train_2": {
-        "train_loss": 0.107,
-        "epoch_acc": 0.966
-      },
-      "test_2": {
-        "test_loss": 0.224,
-        "epoch_acc": 0.898
-      },
-      "train_3": {
-        "train_loss": 0.06,
-        "epoch_acc": 0.98
-      },
-      "test_3": {
-        "test_loss": 0.019,
-        "epoch_acc": 0.997
-      }
-    }
-  },
-  "4a40e39c-3c0a-4427-bb41-f0582e9c1142": {
-    "model_weights_path": "4a40e39c-3c0a-4427-bb41-f0582e9c1142_weights_model.pth",
-    "complete_model_path": "4a40e39c-3c0a-4427-bb41-f0582e9c1142_complete_model.pth",
-    "model_name": "ResNet50",
-    "weights": "None",
-    "num_epocs": 4,
-    "transformation": "transforms.Resize(size=(299, 299))",
-    "time": "Sat Dec 17 15:53:52 2022",
-    "training": {
-      "train_0": {
-        "train_loss": 0.685,
-        "epoch_acc": 0.687
-      },
-      "test_0": {
-        "test_loss": 1.119,
-        "epoch_acc": 0.472
-      },
-      "train_1": {
-        "train_loss": 0.151,
-        "epoch_acc": 0.955
-      },
-      "test_1": {
-        "test_loss": 0.163,
-        "epoch_acc": 0.942
-      },
-      "train_2": {
-        "train_loss": 0.077,
-        "epoch_acc": 0.979
-      },
-      "test_2": {
-        "test_loss": 0.089,
-        "epoch_acc": 0.973
-      },
-      "train_3": {
-        "train_loss": 0.067,
-        "epoch_acc": 0.979
-      },
-      "test_3": {
-        "test_loss": 0.024,
-        "epoch_acc": 0.998
-      }
-    }
-  }
 }

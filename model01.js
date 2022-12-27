@@ -306,10 +306,10 @@ function add_study(study) {
   header_column.classList.add("col-0");
   const _header = document.createElement('h5');
   _header.innerHTML = study.get_title().capitalise();
-  const _p = document.createElement('p');
-  _p.innerHTML = study.get_description()+"<br/>"+"<i>Created: </li>"+ study.get_datetime().capitalise();
+  //const _p = document.createElement('p');
+  //_p.innerHTML = study.get_description()+"<br/>"+"<i>Created: </li>"+ study.get_datetime().capitalise();
   header_column.appendChild(_header);
-  header_column.appendChild(_p);
+  //header_column.appendChild(_p);
   row_info.appendChild(header_column);
   e1.append(row_info)
 

@@ -1,68 +1,110 @@
 {
-    "06d52b2e-8446-4829-b396-f97cb9c21de6": {
-        "complete_model_path": "06d52b2e-8446-4829-b396-f97cb9c21de6_complete_model.pth",
-        "model_name": "ResNet50",
-        "weights": "None",
-        "num_epocs": 7,
-        "transformation": "transforms.Resize(size=(299, 299))",
-        "time": "Sun Dec 25 16:42:29 2022",
-        "training": {
-            "train_0": {
-                "train_loss": 0.704,
-                "epoch_acc": 0.684
-            },
-            "test_0": {
-                "test_loss": 0.233,
-                "epoch_acc": 0.965
-            },
-            "train_1": {
-                "train_loss": 0.184,
-                "epoch_acc": 0.942
-            },
-            "test_1": {
-                "test_loss": 0.041,
-                "epoch_acc": 0.999
-            },
-            "train_2": {
-                "train_loss": 0.093,
-                "epoch_acc": 0.973
-            },
-            "test_2": {
-                "test_loss": 0.028,
-                "epoch_acc": 0.997
-            },
-            "train_3": {
-                "train_loss": 0.061,
-                "epoch_acc": 0.984
-            },
-            "test_3": {
-                "test_loss": 0.01,
-                "epoch_acc": 0.999
-            },
-            "train_4": {
-                "train_loss": 0.045,
-                "epoch_acc": 0.986
-            },
-            "test_4": {
-                "test_loss": 0.005,
-                "epoch_acc": 1.0
-            },
-            "train_5": {
-                "train_loss": 0.019,
-                "epoch_acc": 0.995
-            },
-            "test_5": {
-                "test_loss": 0.005,
-                "epoch_acc": 1.0
-            },
-            "train_6": {
-                "train_loss": 0.019,
-                "epoch_acc": 0.995
-            },
-            "test_6": {
-                "test_loss": 0.002,
-                "epoch_acc": 1.0
-            }
-        }
+  "06d52b2e-8446-4829-b396-f97cb9c21de6": {
+    "complete_model_path": "06d52b2e-8446-4829-b396-f97cb9c21de6_complete_model.pth",
+    "model_name": "ResNet50",
+    "weights": "None",
+    "num_epocs": 7,
+    "transformation": "transforms.Resize(size=(299, 299))",
+    "time": "Sun Dec 25 16:42:29 2022",
+    "training": {
+      "train_0": {
+        "train_loss": 0.704,
+        "epoch_acc": 0.684
+      },
+      "test_0": {
+        "test_loss": 0.233,
+        "epoch_acc": 0.965
+      },
+      "train_1": {
+        "train_loss": 0.184,
+        "epoch_acc": 0.942
+      },
+      "test_1": {
+        "test_loss": 0.041,
+        "epoch_acc": 0.999
+      },
+      "train_2": {
+        "train_loss": 0.093,
+        "epoch_acc": 0.973
+      },
+      "test_2": {
+        "test_loss": 0.028,
+        "epoch_acc": 0.997
+      },
+      "train_3": {
+        "train_loss": 0.061,
+        "epoch_acc": 0.984
+      },
+      "test_3": {
+        "test_loss": 0.01,
+        "epoch_acc": 0.999
+      },
+      "train_4": {
+        "train_loss": 0.045,
+        "epoch_acc": 0.986
+      },
+      "test_4": {
+        "test_loss": 0.005,
+        "epoch_acc": 1.0
+      },
+      "train_5": {
+        "train_loss": 0.019,
+        "epoch_acc": 0.995
+      },
+      "test_5": {
+        "test_loss": 0.005,
+        "epoch_acc": 1.0
+      },
+      "train_6": {
+        "train_loss": 0.019,
+        "epoch_acc": 0.995
+      },
+      "test_6": {
+        "test_loss": 0.002,
+        "epoch_acc": 1.0
+      }
     }
+  },
+  "b64d5c37-f621-4a6f-b3e8-b1b5f98a04d2": {
+    "complete_model_path": "b64d5c37-f621-4a6f-b3e8-b1b5f98a04d2_complete_model.pth",
+    "model_name": "ResNet50",
+    "weights": "None",
+    "num_epocs": 4,
+    "transformation": "transforms.Resize(size=(299, 299))",
+    "time": "Sun Dec 25 17:45:19 2022",
+    "training": {
+      "train_0": {
+        "train_loss": 0.674,
+        "epoch_acc": 0.697
+      },
+      "test_0": {
+        "test_loss": 0.178,
+        "epoch_acc": 0.965
+      },
+      "train_1": {
+        "train_loss": 0.158,
+        "epoch_acc": 0.953
+      },
+      "test_1": {
+        "test_loss": 0.132,
+        "epoch_acc": 0.96
+      },
+      "train_2": {
+        "train_loss": 0.084,
+        "epoch_acc": 0.976
+      },
+      "test_2": {
+        "test_loss": 0.017,
+        "epoch_acc": 0.999
+      },
+      "train_3": {
+        "train_loss": 0.067,
+        "epoch_acc": 0.978
+      },
+      "test_3": {
+        "test_loss": 0.01,
+        "epoch_acc": 1.0
+      }
+    }
+  }
 }

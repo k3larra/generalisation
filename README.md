@@ -8,10 +8,10 @@ Website accompanying the paper with the above title. his site adds code and addi
 
 [evaluation notebook](shapes_XAI_evaluate.ipynb)
 
-**Study 1:** This study investigated 
+Studies:
 [trained models](https://k3larra.github.io/generalisation/models01.html)
 
-
+<!--
 prediction code used in study 1 and 2
 ```python
 #Loading pretrained resnet50 model with V1 weights
@@ -19,7 +19,7 @@ torch.hub._validate_not_a_forked_repo=lambda a,b,c: True #Skum grej från https:
 model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
 ```
 
-<!-- Click the images for to get the ML-model comparisons.
+ Click the images for to get the ML-model comparisons.
 
 [![](testset/thumbnails/0.jpg)](https://k3larra.github.io/ood/sorrel_version01.html?study_nbr=0)
 [![](testset/thumbnails/1.jpg)](https://k3larra.github.io/ood/sorrel_version01.html?study_nbr=1)

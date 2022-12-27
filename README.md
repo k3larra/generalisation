@@ -3,7 +3,7 @@ Website accompanying the paper with the above title. his site adds code and addi
 
 **Abstract** *Central to deep learning is an ability to generalise within a target domain akin to human beliefs within the same domain. A label inferred by the neural network then maps to a human mental representation of a, to the label, corresponding concept. If an explanation concerning why a specific decision is promoted it is important that we move from average case performance metrics towards interpretable explanations that builds on human understandable concepts connected to the promoted label. In this work we use Explainable Artificial Intelligence (XAI) methods to investigate if internal knowledge representations in a trained neural networks are aligned and generalise in correspondence to human mental representations. Our findings indicate an, in neural networks, epistemic misalignment between machine and human knowledge representations. Consequently, if the goal is classifications explainable for end users we can question the usefulness of neural networks trained without considering concept alignment.*
 
-##Code used
+## Code used
 [training notebook](shapes_train.ipynb)
 
 [evaluation notebook](shapes_XAI_evaluate.ipynb)

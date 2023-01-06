@@ -10,7 +10,7 @@ Study 2 and the first four images in Study 3 as part of the target domain and al
 text below we take a human perspective when commenting the classification and we do not try to get any deep understanding on \
 why the network miss-classifies or what training data that needs to be added to improve classification. The experimental \
 focus is instead on generalisation and the discrepancy between how neural networks generalise compared to how humans generalise. <br/>\
-Code for studies can be found at <a href='shapes_XAI_evaluate.ipynb'>shapes_XAI_evaluate.ipynb</a>"
+Code for studies can be found at <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_XAI_evaluate.ipynb'>shapes_XAI_evaluate.ipynb</a>"
 const title_study_1 = "<b>Study 1</b>: Generalisation towards singular resized and re-positioned exemplars from the target domain"
 const title_study_2 = "<b>Study 2:</b> Generalisation towards multiple resized and re-positioned exemplars from the target domain"
 const title_study_3 = "<b>Study 3:</b> Generalisation towards o.o.d. exemplars"
@@ -245,15 +245,15 @@ function set_globals(model) {
   const pretrained = (weights === "None" ? 'The model is initialised with random weights.' :
     'The model is pretrained on ImageNet using the weights ' + weights + '.');
   const transformation = (model.transformation === "transforms.Resize(size=(299, 299))") ?
-    "Transformation used can be found in <a href='shapes_train.ipynb'>shapes_train.ipynb</a>" :
-    "Used transformation in <a href='shapes_train.ipynb'>shapes_train.ipynb</a> and the ImageNet's recommended transformations"
+    "Transformation used can be found in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_train.ipynb'>shapes_train.ipynb</a>" :
+    "Used transformation in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_train.ipynb.ipynb'>shapes_train.ipynb</a> and the ImageNet's recommended transformations"
 
   p.innerHTML = `The ImageNet model: <a href="https://pytorch.org/vision/stable/models.html#classification"> ${model.model_name}</a> trained  on the 
   a basic shapes <a href="https://www.kaggle.com/datasets/smeschke/four-shapes">dataset</a> 
   (circle, square, star, triangle). 16 000 images are used for training in a 90/10 split. 
   ${pretrained}  
   ${transformation}, the model is trained over ${model.num_epocs} epocs. Test accuracy: ${model.training["test_" + (model.num_epocs - 1)].epoch_acc}
-  and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}.<br> Training performed ${model.time}.`;
+  and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}.<br> This page is created using code in <br> Training performed ${model.time}.`;
   if ((model["studies"]) != null) {
     Object.entries(model["studies"]).forEach(([key, value]) => {
       studies.push(new Study(key, value))

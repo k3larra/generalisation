@@ -373,10 +373,12 @@ function add_models_to_section(){
         cap.classList.add("text-left","small")
         caps.push(cap);
         let fig = document.createElement("figure");
-        link.appendChild(img);
-        fig.appendChild(link);
+        //link.appendChild(img);
+        fig.appendChild(img);
         fig.appendChild(cap);
-        column_maps.appendChild(fig);
+        //column_maps.appendChild(fig);
+        link.appendChild(fig);
+        column_maps.appendChild(link);
         row_maps.appendChild(column_maps);
       };
       e.appendChild(row_maps);

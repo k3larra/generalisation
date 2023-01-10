@@ -253,7 +253,7 @@ function set_globals(model) {
   (circle, square, star, triangle). 16 000 images are used for training in a 90/10 split. 
   ${pretrained}  
   ${transformation}, the model is trained over ${model.num_epocs} epocs. Test accuracy: ${model.training["test_" + (model.num_epocs - 1)].epoch_acc}
-  and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}.<br> This page is created using code in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_XAI_evaluate.ipynb'>\
+  and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}.<br> This page is created using code in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_XAI_evaluate.ipynb'>shapes_XAI_evaluate.ipynb</a>\
   <br> Training performed ${model.time}.`;
   if ((model["studies"]) != null) {
     Object.entries(model["studies"]).forEach(([key, value]) => {

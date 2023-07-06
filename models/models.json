@@ -1761,13 +1761,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/0_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/0_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/0_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/0_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/0_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/0_Transfomed.PNG"
                     }
                 },
                 "1": {
@@ -1792,13 +1792,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/1_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/1_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/1_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/1_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/1_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/1_Transfomed.PNG"
                     }
                 },
                 "2": {
@@ -1823,13 +1823,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/2_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/2_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/2_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/2_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/2_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/2_Transfomed.PNG"
                     }
                 },
                 "3": {
@@ -1854,13 +1854,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/3_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/3_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/3_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/3_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/3_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/3_Transfomed.PNG"
                     }
                 },
                 "4": {
@@ -1885,13 +1885,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/4_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/4_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/4_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/4_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/4_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/4_Transfomed.PNG"
                     }
                 },
                 "5": {
@@ -1916,13 +1916,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/5_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/5_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/5_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/5_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/5_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/5_Transfomed.PNG"
                     }
                 },
                 "6": {
@@ -1947,13 +1947,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/6_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/6_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/6_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/6_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/6_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/6_Transfomed.PNG"
                     }
                 },
                 "7": {
@@ -1978,13 +1978,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/7_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/7_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/7_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/7_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study1/7_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study1/7_Transfomed.PNG"
                     }
                 }
             },
@@ -2016,13 +2016,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/0_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/0_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/0_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/0_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/0_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/0_Transfomed.PNG"
                     }
                 },
                 "1": {
@@ -2047,13 +2047,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/1_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/1_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/1_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/1_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/1_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/1_Transfomed.PNG"
                     }
                 },
                 "2": {
@@ -2078,13 +2078,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/2_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/2_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/2_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/2_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/2_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/2_Transfomed.PNG"
                     }
                 },
                 "3": {
@@ -2109,13 +2109,13 @@
                         "labelid": 1
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/3_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/3_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/3_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/3_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/3_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/3_Transfomed.PNG"
                     }
                 },
                 "4": {
@@ -2140,13 +2140,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/4_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/4_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/4_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/4_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/4_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/4_Transfomed.PNG"
                     }
                 },
                 "5": {
@@ -2171,13 +2171,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/5_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/5_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/5_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/5_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/5_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/5_Transfomed.PNG"
                     }
                 },
                 "6": {
@@ -2202,13 +2202,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/6_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/6_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/6_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/6_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/6_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/6_Transfomed.PNG"
                     }
                 },
                 "7": {
@@ -2233,13 +2233,13 @@
                         "labelid": 0
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/7_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/7_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/7_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/7_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study2/7_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study2/7_Transfomed.PNG"
                     }
                 }
             },
@@ -2271,13 +2271,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/0_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/0_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/0_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/0_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/0_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/0_Transfomed.PNG"
                     }
                 },
                 "1": {
@@ -2302,13 +2302,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/1_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/1_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/1_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/1_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/1_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/1_Transfomed.PNG"
                     }
                 },
                 "2": {
@@ -2333,13 +2333,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/2_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/2_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/2_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/2_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/2_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/2_Transfomed.PNG"
                     }
                 },
                 "3": {
@@ -2364,13 +2364,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/3_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/3_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/3_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/3_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/3_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/3_Transfomed.PNG"
                     }
                 },
                 "4": {
@@ -2395,13 +2395,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/4_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/4_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/4_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/4_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/4_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/4_Transfomed.PNG"
                     }
                 },
                 "5": {
@@ -2426,13 +2426,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/5_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/5_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/5_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/5_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/5_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/5_Transfomed.PNG"
                     }
                 },
                 "6": {
@@ -2457,13 +2457,13 @@
                         "labelid": 1
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/6_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/6_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/6_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/6_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/6_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/6_Transfomed.PNG"
                     }
                 },
                 "7": {
@@ -2488,13 +2488,13 @@
                         "labelid": 2
                     },
                     "gradcam": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/7_GradCam.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/7_GradCam.PNG"
                     },
                     "occlusion": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/7_Occlusion.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/7_Occlusion.PNG"
                     },
                     "transformed": {
-                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6/studies/study3/7_Transfomed.PNG"
+                        "image_path": "models/06d52b2e-8446-4829-b396-f97cb9c21de6_all/studies/study3/7_Transfomed.PNG"
                     }
                 }
             }

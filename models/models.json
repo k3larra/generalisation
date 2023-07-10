@@ -1,10 +1,10 @@
 {
   "06d52b2e-8446-4829-b396-f97cb9c21de6": {
     "complete_model_path": "06d52b2e-8446-4829-b396-f97cb9c21de6_complete_model.pth",
-    "model_name": "ResNet50",
+    "model_name": "ResNet50_positive",
     "weights": "None",
     "num_epocs": 7,
-    "transformation": "transforms.Resize(size=(299, 299))",
+    "transformation": "Resize(size=(299, 299))",
     "time": "Sun Dec 25 16:42:29 2022",
     "training": {
       "train_0": {
@@ -834,7 +834,7 @@
   },
   "02609e31-0994-48f4-98f5-b5e770061e49": {
     "complete_model_path": "02609e31-0994-48f4-98f5-b5e770061e49_complete_model.pth",
-    "model_name": "Inception_V3",
+    "model_name": "Inception_V3_positive",
     "weights": "None",
     "num_epocs": 7,
     "transformation": "transforms.Resize(size=(299, 299))",
@@ -1669,7 +1669,7 @@
   },
   "06d52b2e-8446-4829-b396-f97cb9c21de6_all": {
     "complete_model_path": "06d52b2e-8446-4829-b396-f97cb9c21de6_complete_model.pth",
-    "model_name": "ResNet50",
+    "model_name": "ResNet50_all",
     "weights": "None",
     "num_epocs": 7,
     "transformation": "transforms.Resize(size=(299, 299))",
@@ -2502,7 +2502,7 @@
   },
   "fde6b997-a900-43a0-8452-abd7f359fa05": {
     "complete_model_path": "fde6b997-a900-43a0-8452-abd7f359fa05_complete_model.pth",
-    "model_name": "Efficientnet_v2_s",
+    "model_name": "Efficientnet_v2_s_positive",
     "weights": "None",
     "num_epocs": 7,
     "transformation": "transforms.Resize(size=(299, 299))",
@@ -3335,7 +3335,7 @@
   },
   "525c2310-e198-4768-9019-1dbe2875a44e": {
     "complete_model_path": "525c2310-e198-4768-9019-1dbe2875a44e_complete_model.pth",
-    "model_name": "ResNet50",
+    "model_name": "ResNet50_positive",
     "weights": "Pretrained",
     "num_epocs": 7,
     "transformation": "transforms.Resize(size=(299, 299))",

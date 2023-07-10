@@ -131,7 +131,7 @@ class Study {
       title = title_study_3;
     }
     return title;
-    
+
 /*     if (this.value.hasOwnProperty("title")) {
       return this.value["title"].capitalise();
     } else {
@@ -239,19 +239,19 @@ function set_globals(model) {
   p.classList.addclass = "text-left"
   let weights = "None"
   //console.log(model)
-  if ((model.weights).split(".").length > 1) {
-    weights = (model.weights).split(".")[1]
+  if ((model.weights).length> 1) {
+    weights = (model.weights)
   }
   const pretrained = (weights === "None" ? 'The model is initialised with random weights.' :
-    'The model is pretrained on ImageNet using the weights ' + weights + '.');
+    'The model is pretrained on ImageNet using ImageNet weights.');
   const transformation = (model.transformation === "transforms.Resize(size=(299, 299))") ?
     "Transformation used can be found in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_train.ipynb'>shapes_train.ipynb</a>" :
     "Used transformation in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_train.ipynb.ipynb'>shapes_train.ipynb</a> and the ImageNet's recommended transformations"
 
-  p.innerHTML = `The ImageNet model: <a href="https://pytorch.org/vision/stable/models.html#classification"> ${model.model_name}</a> trained  on the 
-  a basic shapes <a href="https://www.kaggle.com/datasets/smeschke/four-shapes">dataset</a> 
-  (circle, square, star, triangle). 16 000 images are used for training in a 90/10 split. 
-  ${pretrained}  
+  p.innerHTML = `The ImageNet model: <a href="https://pytorch.org/vision/stable/models.html#classification"> ${model.model_name}</a> trained  on the
+  a basic shapes <a href="https://www.kaggle.com/datasets/smeschke/four-shapes">dataset</a>
+  (circle, square, star, triangle). 16 000 images are used for training in a 90/10 split.
+  ${pretrained}
   ${transformation}, the model is trained over ${model.num_epocs} epocs. Test accuracy: ${model.training["test_" + (model.num_epocs - 1)].epoch_acc}
   and test loss: ${model.training["test_" + (model.num_epocs - 1)].test_loss}.<br> This page is created using code in <a href='https://github.com/k3larra/generalisation/blob/pc/shapes_XAI_evaluate.ipynb'>shapes_XAI_evaluate.ipynb</a>\
   <br> Training performed ${model.time}.`;
@@ -294,7 +294,7 @@ function set_saliency_maps(studies) {
   studies.forEach((study) => {
     add_study(study)
   });
-  //} 
+  //}
 
 }
 
@@ -349,26 +349,22 @@ function add_study(study) {
     caps_grad[column].innerHTML = "<b>Saliency map</b>: GradCam"
     //row2
     if (column == 0) {
-
       //<hr class="border border-danger border-2 opacity-50"></hr>
       row_info = create_image_row()
       images_occ = row_info[1];
       caps_occ = row_info[2];
-
       e1.appendChild(row_info[0]);
-
     }
     images_occ[column].src = study.get_occlusion_image(i);
     caps_occ[column].innerHTML = "<b>Saliency map</b>: Occlusion"
   }
-
   e.append(e1)
   /* links[column].href = "model.html?id="+model.name;
   let weights = "None"
   if ((model.values.weights).split(".").length > 0){
     weights = (model.values.weights).split(".")[1]
   }
-  caps[column].innerHTML = `<i>Model: </i>${model.values.model_name} 
+  caps[column].innerHTML = `<i>Model: </i>${model.values.model_name}
   <br/><i>Transforms used:</i> ${model.values.transformation}
   <br/> <i>Weights used:</i> ${weights}
   <br/> <i>Number epocs: </i> ${model.values.num_epocs}
@@ -376,6 +372,13 @@ function add_study(study) {
   <br/> <i>Loss::</i> ${model.values.training["test_" + (model.values.num_epocs - 1)].test_loss}
   <br/> <i>Datetime for training:</i> ${model.values.time}`; */
 }
+
+// function checkImage(imageSrc, good, bad) {
+//     var img = new Image();
+//     img.onload = good;
+//     img.onerror = bad;
+//     img.src = imageSrc;
+// }
 
 function create_image_row() {
   let images = [];
@@ -407,7 +410,11 @@ function get_class_probabilities(study, image_nbr) {
   let caption = "<b>Image " +image_nbr+"</b><br/>\
   <b>Label: Class probability</b><br/>";
   probabilties.forEach(element => {
-    caption += (element.label).capitalise() +
+    let label= element.label
+    if (label === undefined){
+      label = "undefined"
+    }
+    caption += (label).capitalise() +
       ": " + (element.probability) + "%<br/>";
   });
   return caption
@@ -727,7 +734,7 @@ function add_models_to_section() {
     if ((model.values.weights).split(".").length > 0) {
       weights = (model.values.weights).split(".")[1]
     }
-    caps[column].innerHTML = `<i>Model: </i>${model.values.model_name} 
+    caps[column].innerHTML = `<i>Model: </i>${model.values.model_name}
     <br/><i>Transforms used:</i> ${model.values.transformation}
     <br/> <i>Weights used:</i> ${weights}
     <br/> <i>Number epocs: </i> ${model.values.num_epocs}

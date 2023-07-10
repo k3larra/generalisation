@@ -386,10 +386,10 @@ function add_models_to_section(){
     images[column].src = "images/neural_network.png";
     links[column].href = "model01.html?id="+model.name;
     let weights = "None"
-    if ((model.values.weights).split(".").length > 1){
-      weights = (model.values.weights).split(".")[1]
+    if ((model.values.weights).length > 1){
+      weights = model.values.weights
     }
-    caps[column].innerHTML = `<i>Model: </i>${model.values.model_name} 
+    caps[column].innerHTML = `<i>Model: </i>${model.values.model_name}
     <br/><i>Transforms used:</i> ${model.values.transformation}
     <br/> <i>Weights used:</i> ${weights}
     <br/> <i>Number epocs: </i> ${model.values.num_epocs}
